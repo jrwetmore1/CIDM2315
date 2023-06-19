@@ -15,10 +15,10 @@ class Program
         //changes lowercase letters to uppercase
         switch (grade.ToUpper())
         {
-         case "A":
+        case "A":
         gpa_points = 4;
         break;
-         case "B":
+        case "B":
         gpa_points = 3;
         break;
         case "C":
