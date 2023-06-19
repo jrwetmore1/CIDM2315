@@ -1,14 +1,41 @@
-﻿namespace Homework1;
+﻿namespace Lecture2;
 
 class Program
 {
     static void Main(string[] args)
-    // The linear line Equation is: Z = 4X2+3Y, when  X = 2.5, Y=3.3, write a program to:
-
     {
-        double x = 2.5;
-        double y = 3.3;
-        double z = 4*x*x+3*y;
-        Console.WriteLine(z);
+        //the question asked in the terminal
+        Console.Write("Enter the grade letter: ");
+
+        //input from user
+        string grade = Console.ReadLine();
+
+        int gpa_points;
+
+        //changes lowercase letters to uppercase
+        switch (grade.ToUpper())
+        {
+         case "A":
+        gpa_points = 4;
+        break;
+         case "B":
+        gpa_points = 3;
+        break;
+        case "C":
+        gpa_points = 2;
+        break;
+        case "D":
+        gpa_points = 1;
+        break;
+        case "F":
+        gpa_points = 0;
+        break;
+        default:
+        Console.WriteLine("Wrong Letter Grade!");
+        return;
+        }
+
+        //correct letter returns this statement
+        Console.WriteLine($"GPA point: {gpa_points}");
     }
 }
