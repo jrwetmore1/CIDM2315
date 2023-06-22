@@ -3,4 +3,4 @@
 - Added Homework1 file.
 
 6/19/2023
-- Added lecture 2 homeworkfile.
+- Added lecture 2 homework file.
