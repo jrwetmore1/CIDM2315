@@ -24,7 +24,6 @@ Console.WriteLine("Customer ID:{0}, Customer Name:{1}, Customer Age:{2}",cus_id,
 }
 }
 class main {
-//
 static void Main() {
 //data for the WriteLine
 Customer c1=new Customer(110,"Alice",28);
@@ -32,7 +31,7 @@ Customer c2=new Customer(111,"Bob",30);
 c1.PrintCusInfo();
 c2.PrintCusInfo();
 Console.WriteLine();
-//changes the users ID
+//changes the user's ID
 c1.ChangeID(220);
 c2.ChangeID(221);
 c1.PrintCusInfo();
