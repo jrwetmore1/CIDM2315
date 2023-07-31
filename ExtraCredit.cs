@@ -89,7 +89,7 @@ namespace Midterm
                     Console.WriteLine("Sorry, you don't have enough points, thanks for playing.\nThank you for playing!");
                     break;
                 }
-                Console.WriteLine("-->Play again? Input y to coninue, or n to exit");
+                Console.WriteLine("-->Play again? Input y to continue, or n to exit");
                 char t = Console.ReadLine()[0];
                 if (t != 'y')
                     break;
